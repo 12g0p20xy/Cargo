@@ -1,6 +1,6 @@
 ## 简介
 
-Vue 实现无限滚动加载，使用 [JSON Server]((https://github.com/typicode/json-server)) + [Faker.js](https://github.com/Marak/faker.js) Mock 数据。
+Vue 实现无限滚动加载，使用 [JSON Server](https://github.com/typicode/json-server) + [Faker.js](https://github.com/Marak/faker.js) Mock 数据。
 
 ## 用法
 
