@@ -2,6 +2,8 @@
 
 ![](GIF.gif)
 
+[【Demo】](http://ovhkjvhoy.bkt.clouddn.com/index.html)
+
 书籍搜索器，可以查询豆瓣上的书籍信息，评分和用户笔记。
 
 使用技术：Vue、Vuex、Vue-router、Fetch 等。
