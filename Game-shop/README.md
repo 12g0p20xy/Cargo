@@ -2,6 +2,8 @@
 
 一个简单的游戏商城页面，使用 vuex、vue-router 实现页面切换，添加购物车等功能。
 
+[【Demo】](http://ovhkjvhoy.bkt.clouddn.com/game_shop/index.html#/shop)
+
 ## 已实现的功能
 
 - [x] 回到顶部（节流检测）
