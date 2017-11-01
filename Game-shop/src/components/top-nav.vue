@@ -166,28 +166,3 @@ export default {
   }
 }
 </script>
-
-<style lang="less" scoped>
-nav.active {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 100;
-}
-.cart {
-  span.tt {
-    display: inline-block;
-    vertical-align: top;
-    max-width: 16em;
-    margin-right: .2em;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-}
-#qr {
-  width: 160px!important;
-  height: 160px!important;
-}
-</style>

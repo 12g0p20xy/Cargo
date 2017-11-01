@@ -4,7 +4,7 @@ export const actions = {
 
   // 加载商品信息
   updateShopList({ commit }, page) {
-    fetch(`./src/mock/list_data_${page}.json`)
+    fetch(`fake_data/list_data_${page}.json`)
       .then(response => 
         response.json()
       )

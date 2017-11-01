@@ -1,0 +1,10 @@
+[
+  { "id": 1111, "name": "《巫師3：狂獵》年度最佳遊戲版", "prize": "155.00", "value": 1, "img": "http://olrr17ktb.bkt.clouddn.com/17-10-20/99409755.jpg", "checked": false, "discount": "-60%" },
+  { "id": 2222, "name": "巫師3：狂獵 石之心", "prize": "38.50", "value": 1, "img": "http://olrr17ktb.bkt.clouddn.com/17-10-20/24874184.jpg", "checked": false, "discount": "-50%" },
+  { "id": 3333, "name": "巫師3：狂獵 - 血與酒", "prize": "77.00", "value": 1, "img": "http://olrr17ktb.bkt.clouddn.com/17-10-20/20551940.jpg", "checked": false, "discount": "-50%" },
+  { "id": 4444, "name": "DARK SOULS™ III", "prize": "263.45", "value": 1, "img": "http://olrr17ktb.bkt.clouddn.com/17-10-20/51869919.jpg", "checked": false, "discount": "-50%" },
+  { "id": 1100, "name": "Gran Turismo Sport", "prize": "398.00", "value": 1, "img": "http://olrr17ktb.bkt.clouddn.com/17-10-20/23681070.jpg", "checked": false, "discount": 0 },
+  { "id": 5555, "name": "RESIDENT EVIL 7 biohazard", "prize": "199.00", "value": 1, "img": "http://olrr17ktb.bkt.clouddn.com/17-10-20/47356593.jpg", "checked": false, "discount": "-50%" },
+  { "id": 6666, "name": "Bloodborne™ The Old Hunters Edition", "prize": "123.20", "value": 1, "img": "http://olrr17ktb.bkt.clouddn.com/17-10-20/80445111.jpg", "checked": false, "discount": "-60%" },
+  { "id": 2200, "name": "看門狗 2", "prize": "268.00", "value": 1, "img": "http://olrr17ktb.bkt.clouddn.com/17-10-20/11777085.jpg", "checked": false, "discount": 0 }
+]

@@ -14,31 +14,11 @@
 </template>
 
 <script>
-
 import topNav from './top-nav.vue'
 
 export default {
   components: {
     topNav
-  },
-  data() {
-    return {
-      
-    }
-  },
-  methods: {
-    
   }
 }
-
 </script>
-
-<style lang="less">
-.container-fluid {
-  max-width: 1300px;
-}
-footer {
-  height: 300px;
-  background: #333;
-}
-</style>
