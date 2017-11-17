@@ -1,0 +1,35 @@
+@import "variables";
+@import "general";
+@import "mixin";
+@import "responsive";
+
+// Custom
+
+body {
+  background: #fff;
+  padding: 30px;
+}
+
+.board {
+  width: 16em;
+  .clearfix;
+}
+
+button.square {
+  float: left;
+  margin-right: .3em;
+  margin-bottom: .3em;
+  border: none;
+  outline: none;
+  background: #eee;
+  width: 5em;
+  height: 5em;
+
+  &:hover {
+    background: darken(#eee, 10%)
+  }
+
+  &.active {
+    background: yellow;
+  }
+}
