@@ -1,0 +1,46 @@
+@import "variables";
+@import "general";
+@import "mixin";
+@import "responsive";
+
+// Custom
+
+.search {
+  input {
+    margin: 1em 0;
+    width: 22em;
+    background: #eee;
+  }
+}
+
+table {
+  thead td {
+    font-weight: bold;
+  }
+
+  td {
+    width: 10em;
+    padding: .2em .5em;
+    background: #eee;
+    border: 2px solid #fff;
+  }
+
+  tr:nth-child(2n+1) td {
+    background: #e3e3e3;
+  }
+
+  i {
+    float: right;
+    margin-top: 10px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 3px 0 3px;
+    border-color: #333 transparent transparent transparent;
+
+    &.active {
+      border-width: 0 3px 6px 3px;
+      border-color: transparent transparent #333 transparent;
+    }
+  }
+}
