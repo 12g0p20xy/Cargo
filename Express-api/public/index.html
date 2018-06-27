@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Express 测试</h1>
+  <p>引入静态文件 public/test.png：</p>
+  <img src="test.png">
+  <h3>当前接口返回的 fakeData：</h3>
+  <p id="api"></p>
+  <h3>提交 GET 请求：</h3>
+  Name: <input id="name" type="text">
+  <button type="button" id="btn1">改变 fakeData</button>
+  <br>
+  <h3>提交 POST 请求：</h3>
+  Name: <input id="name2" type="text">
+  <button type="button" id="btn2">改变 fakeData</button>
+
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    $.get('http://localhost:3000/api', function(data) {
+      var obj = JSON.parse(data)
+      $('#api').text("name: " + obj.name + ', age: ' + obj.age);
+    });
+
+    $('#btn1').click(function() {
+      var name = $('#name').val();
+      $.get('http://localhost:3000/api', { name: name }, function(data) {
+        var obj = JSON.parse(data)
+        $('#api').text("name: " + obj.name + ', age: ' + obj.age);
+      });
+    });
+
+    $('#btn2').click(function() {
+      var name = $('#name2').val();
+      $.post('http://localhost:3000/post', { name: name }, function(data) {
+        var obj = JSON.parse(data)
+        $('#api').text("name: " + obj.name + ', age: ' + obj.age);
+      });
+    });
+    
+  </script>
+</body>
+</html>
